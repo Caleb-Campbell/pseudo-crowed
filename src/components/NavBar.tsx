@@ -26,9 +26,9 @@ const Navbar = () => {
 
       <div className={`md:flex flex-grow items-center justify-center ${isOpen ? "block" : "hidden"}`}>
         <ul className="md:flex items-center space-x-4">
-          <li><a href="/" className="text-light-text hover:text-alt">Home</a></li>
-          <li><a href="/" className="text-light-text hover:text-alt">About</a></li>
-          <li><a href="/" className="text-light-text hover:text-alt">Crow</a></li>
+          <li><a href="/" className="text-light-text mx-5 text-xl mt-4 hover:text-text-light">Home</a></li>
+          <li><a href="/about" className="text-light-text mx-5 text-xl mt-4 hover:text-text-light">About</a></li>
+          <li><a href="/crow" className="text-light-text mx-5 text-xl mt-4 hover:text-text-light">Crow</a></li>
         </ul>
       </div>
     </nav>

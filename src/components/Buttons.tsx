@@ -15,19 +15,19 @@ const Button = ({ variant = "default", className = "", width = "md", align = "le
       buttonClass += ` bg-darker-back text-light-text hover:bg-light-text hover:text-darker-back`;
       break;
     default:
-      buttonClass += ` bg-dark-back text-light-text hover:bg-light-text hover:text-dark-back`;
+      buttonClass += ` bg-dark-back text-light-text hover:bg-alt hover:text-text-light`;
   }
 
   // Apply width classes based on the 'width' prop
   switch (width) {
     case "sm":
-      buttonClass += ` w-24`;
+      buttonClass += ` w-36`;
       break;
     case "lg":
-      buttonClass += ` w-48`;
+      buttonClass += ` w-full`;
       break;
     default:
-      buttonClass += ` w-36`;
+      buttonClass += ` w-1/2`;
   }
 
   // Apply alignment classes based on the 'align' prop

@@ -16,7 +16,7 @@ const LandingPage = () => {
               <p className="text-dark-text">
                 Discover the power of our organization app and streamline your tasks with ease.
               </p>
-        <Button width="md" align="middle">
+        <Button width="lg" className="mt-10" align="middle">
           Get Started
         </Button>
       </Box>
